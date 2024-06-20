@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+            * {margin: 0; padding: 0;}
+            #header {
+                height: 120px;
+                margin: 33px auto 0;
+                width: 1200px;
+                font-size: 18.5px;
+            }
+            #header ul{
+                list-style: none;
+                text-align: center;
+                margin: 0 auto;
+                }
+            #header li {
+                height: 53px;
+                float:left;
+                margin: 66px 40px 0;
+                text-align: center;
+            }
+            #header li a {color:black; text-decoration: none;}
+            #header li a:hover {
+                color:red;
+                text-decoration: underline;
+                text-decoration-color: black;
+            }
+
+            #main_picture {
+                height: 464px;
+                width: 100%;
+                overflow: hidden;
+            }
+
+            #icon_title {
+                margin: 30px auto;
+                text-align: center;
+                width: 500px;
+            }
+
+            #icon_box {
+                width: 1240px;
+                margin: 10px auto;
+                display: flex;
+            }
+            #icon_box .paragraph {
+                width: 250px;
+                margin: 30px;
+                font-size: 14px;
+                text-align: center;
+                line-height: 25px;
+                padding-bottom: 20px;
+                border-bottom: 1px dashed black;
+            }
+            #icon_box .paragraph img {
+                display: block;
+                margin: 0 auto;
+            }
+
+            #chefs {
+                height: 304px;
+                background-color: rgb(219, 218, 218);
+                
+            }
+            #chefs .chefs_inner {
+                width: 771px;
+                display: flex;
+                margin: 0 auto;
+
+            }
+            #chefs .chefs_box h2 {
+                width: 500px;
+                margin-right: 30px;
+                margin-top: 100px;
+                padding-bottom: 10px;
+            }
+            #chefs .chefs_box p {
+                width: 500px;
+                margin-right: 30px;
+                line-height: 30px;
+                font-size: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <ul>
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">Gifts</a></li>
+                <li><a href="about.html">About</a></li>
+                <li style="margin-top: 0;"><img src="/img/logo.png"></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Members</a></li>
+                <li><a href="#">Contracts</a></li>
+            </ul>
+        </div>
+
+        <div id="main_picture">
+            <img src="/img/main.png">
+        </div>
+
+        <div id="icon_title">
+            <p style="font-size: 10px;">"WHATS FOR DINNER"</p>
+            <p style="font-size: 20px; font-weight: bold;">FINALLY HAS AN <br> EASY ANWSER</p>
+        </div>
+
+        <div id="icon_box">
+            <div class="paragraph">
+                <img src="/img/icon1.png">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <div class="paragraph">
+                <img src="/img/icon2.png">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <div class="paragraph">
+                <img src="/img/icon3.png">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <div class="paragraph">
+                <img src="/img/icon4.png">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+        </div>
+
+        <div id="chefs">
+            <div class="chefs_inner">
+                <div class="chefs_box">
+                    <h2 style="text-decoration: underline;">Title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                <img src="/img/chef.png">
+            </div>
+        </div>
+    </body>
+</html>

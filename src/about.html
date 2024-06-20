@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial=scale=1.0">
+        <title>Document</title>
+
+        <style>
+            * {margin: 0; padding: 0; font-family: "맑은고딕"; font-weight: bold;}
+            li,ul {list-style: none;}
+            #top {
+                width: 1000px;
+                height: 500px;
+                margin: 30px auto 0;
+            }
+            #top .top_left {
+                width:750px;
+                float: left;
+                position: relative;
+            }
+            #top .top_left img {display: block;}
+            #top .top_left .paragraph {
+                width: 210px;
+                height: 210px;
+                padding: 20px;
+                line-height: 22px;
+                background-color: rgba(0, 128, 0, 0.703);
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                font-size: 14px;
+            }
+            #top .top_left .paragraph h2 {margin-bottom: 15px;}
+            #top .top_right {
+                width:250px;
+                height: 250px;
+                float: right;
+            }
+            #top .top_right img {display: block;}
+
+            #box_all {
+                width: 1000px;
+                height: 500px;
+                margin: 0 auto;
+            }
+            #box_all .box_left{
+                width:750px;
+                float: left;
+                display: flex;
+            }
+            #box_all .box_left .box {
+                width: 210px;
+                height: 210px;
+                padding: 20px;
+                font-size: 14px;
+                line-height: 22px;
+            }
+            #box_all .box_right {
+                width: 210px;
+                height: 460px;
+                background-color: rgb(209, 180, 123);
+                float: right;
+                margin-top: -250px;
+                padding: 20px;
+            }
+
+            #footer {
+                width: 1000px;
+                height: 40px;
+                background-color: pink;
+                margin: 0 auto;
+            }
+            #footer .menu {width: 750px; padding: 0 20px;}
+            #footer .menu li {
+                float: left;
+                font-size: 14px;
+                margin: 10px 5px;
+                padding: 0 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="top">
+            <div class="top_left">
+                <img src="/img/chef_about.png">
+
+                <div class="paragraph">
+                    <h2>GLOBAL <br>BUSINESS</h2>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="top_right">
+                <img src="/img/right1.png">
+                <img src="/img/right2.png">
+            </div>
+        </div>
+
+        <div id="box_all">
+            <div class="box_left">
+                <div class="box" style="background-color: rgb(67, 54, 54);">
+                    <h2>Title</h2>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="box" style="background-color: orange;">
+                    <h2>Title</h2>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="box"style="background-color: rgb(67, 54, 54);">
+                    3
+                </div>
+            </div>
+            <div class="box_left">
+                <div class="box"style="background-color: orange;">
+                    4
+                </div>
+                <div class="box"style="background-color: rgb(67, 54, 54);">
+                    5
+                </div>
+                <div class="box"style="background-color: orange;">
+                    6
+                </div>
+            </div>
+
+            <div class="box_right">
+                7
+            </div>
+        </div>
+
+        <div id="footer">
+            <ul class="menu">
+                <li>법적고지</li>
+                <li style="color:orange;">|</li>
+                <li> 이메일무단수집거부</li>
+                <li style="color:orange;">|</li>
+                <li>이용약관</li>
+                <li style="color:orange;">|</li>
+                <li>개인정보취급방침</li>
+                <li style="color:orange;">|</li>
+                <li>고객센터</li>
+                <li style="color:orange;">|</li>
+                <li>입찰공고</li>
+            </ul>
+        </div>
+    </body>
